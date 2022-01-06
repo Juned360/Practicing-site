@@ -40,11 +40,32 @@ h1{
     background-repeat: no-repeat;
     background-position: right;
 }
-.box-shadow{
+.experiences-tab{
     box-shadow: 10px 10px 40px gray;
     border-radius: 10px;
-    border: 30px gray;
-}
-.left-gradient{
+    width:40%;
+    margin-left: 5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-right: 5%;
     
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+    border-radius: 10px;
+}
+#baby-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+    border-radius: 10px;
+
+}
+.experiences-background{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: rleft;
+
 }
