@@ -1,6 +1,10 @@
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0px;
+    color: #514745;
+}
+section{
+    padding-bottom: 10%;
 }
 h1{
     font-size: 50px;
@@ -30,5 +34,17 @@ h1{
 .background-img{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
-
+}
+.background-img-2{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.box-shadow{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    border: 30px gray;
+}
+.left-gradient{
+    
 }
